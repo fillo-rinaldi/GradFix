@@ -1,0 +1,79 @@
+# ------------------------------
+# Python caches / bytecode
+# ------------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# ------------------------------
+# Virtual environments / local envs
+# ------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+local/
+
+# ------------------------------
+# Build / packaging artifacts
+# ------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ------------------------------
+# Tool caches
+# ------------------------------
+.pytest_cache/
+.mypy_cache/
+.nox/
+.tox/
+.cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# ------------------------------
+# IDE / editor
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# Logs and runtime outputs
+# ------------------------------
+*.log
+*.out
+*.err
+slurm_logs/
+experiments/slurm_logs/
+lightning_logs/
+wandb/
+experiments/wandb/
+
+# ------------------------------
+# Training checkpoints / large model artifacts
+# ------------------------------
+*.pt
+*.pth
+checkpoints/
+
+# ------------------------------
+# Experiment outputs / generated artifacts
+# ------------------------------
+experiments/results/
+synth_imgs*/
+synthetic_images/
+temp_linear_probe/
+**/linear_probing_results/
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
