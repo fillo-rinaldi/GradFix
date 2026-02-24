@@ -16,6 +16,7 @@ It provides a practical framework to:
 - evaluate merge strategies across datasets and pretraining sources.
 
 
+<a id="key-features"></a>
 ## Key Features ✨
 
 - 🔁 **GradFix with Real Gradients:** Compute gradient-sign masks from real images and apply them to task vectors.
@@ -23,6 +24,7 @@ It provides a practical framework to:
 - 🧩 **Merging Strategies:** Support `mean` and `ties` merging, with both “merge then mask” and “mask then merge” pipelines.
 
 
+<a id="installation"></a>
 ## Installation ⚙️
 
 
@@ -49,6 +51,7 @@ Experiments expect finetuned checkpoints under:
 Generate checkpoints with the fine-tuning command shown below, adjusting dataset/backbone and output paths for your setup.
 
 
+<a id="usage"></a>
 ## Usage 🧪
 
 ### 1) Real-gradient evaluation (`--mode eval`) ⚡
@@ -147,12 +150,14 @@ python grad_sign/finetune_openCLIP.py \
 ```
 
 
+<a id="example-datasets"></a>
 ## Example Datasets 🗂️
 
 Supported dataset wrappers are implemented in [grad_sign/dataset](grad_sign/dataset).
 Current experiments in this repository use datasets including EuroSAT, GTSRB, SVHN, RESISC45, DTD, SUN397, MNIST, and Cars.
 
 
+<a id="project-structure"></a>
 ## Project Structure 📁
 
 - `main.py` — unified experiment entrypoint and mode dispatcher.
@@ -161,6 +166,7 @@ Current experiments in this repository use datasets including EuroSAT, GTSRB, SV
 - `permutations/` — permutation artifacts/utilities.
 
 
+<a id="reproducibility-notes"></a>
 ## Reproducibility Notes 🔬
 
 - Set `--seed` for deterministic sampling behavior.
@@ -172,6 +178,7 @@ Current experiments in this repository use datasets including EuroSAT, GTSRB, SV
 ```
 
 
+<a id="citation"></a>
 ## Citation 📚
 
 If you use this code or ideas from the paper, please cite:
@@ -186,6 +193,7 @@ If you use this code or ideas from the paper, please cite:
 ```
 
 
+<a id="acknowledgments"></a>
 ## Acknowledgments 🙏
 
 This project builds on ideas and code from:
