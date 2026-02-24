@@ -1,8 +1,12 @@
 # GradFix 🚀
 
-GradFix is the official codebase for the ICLR 2026 paper:
+[![arXiv](https://img.shields.io/badge/arXiv-2510.09658-b31b1b.svg?style=flat)](https://arxiv.org/abs/2510.09658) [![GitHub stars](https://img.shields.io/github/stars/fillo-rinaldi/GradFix?style=social)](https://github.com/fillo-rinaldi/GradFix/stargazers) [![BibTeX](https://img.shields.io/badge/BibTeX-Available-brightgreen.svg)](#citation)
 
-**Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models** 📝
+This repository contains the official implementation for the ICLR 2026 paper:
+
+> **[Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models](https://arxiv.org/abs/2510.09658)**
+>
+> [Filippo Rinaldi](https://scholar.google.com/citations?hl=it&user=muSVBYMAAAAJ), [Aniello Panariello](https://scholar.google.com/citations?hl=it&user=YnVl5pQAAAAJ), [Giacomo Salici](https://scholar.google.com/citations?hl=it&user=jMVa-rYAAAAJ), [Fengyuan Liu](https://scholar.google.com/citations?hl=it&user=fUVOyM4AAAAJ), [Marco Ciccone](https://scholar.google.com/citations?hl=it&user=hOQjblcAAAAJ), [Angelo Porrello](https://scholar.google.com/citations?hl=it&user=pGNOOk0AAAAJ), [Simone Calderara](https://scholar.google.com/citations?hl=it&user=YaRuDkcAAAAJ)
 
 GradFix provides a principled and practical framework for real-gradient-guided task vector transport and merging in OpenCLIP models.
 
@@ -174,10 +178,10 @@ If you use this code or ideas from the paper, please cite:
 
 ```bibtex
 @inproceedings{rinaldi2026gradient,
-title={Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models},
-author={Filippo Rinaldi and Aniello Panariello and Giacomo Salici and Fengyuang Liu and Marco Ciccone and Angelo Porrello and Simone Calderara},
-booktitle=iclr,
-year={2026}
+  title={Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models},
+  author={Filippo Rinaldi and Aniello Panariello and Giacomo Salici and Fengyuan Liu and Marco Ciccone and Angelo Porrello and Simone Calderara},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2026}
 }
 ```
 
